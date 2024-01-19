@@ -6,9 +6,9 @@ Resources:
     Properties:
       ImageId: ami-0ed9277fb7eb570c9
       InstanceType: t2.micro
-      KeyName: s3963207_asm2_key
+      KeyName: s3804811_asm2
       SecurityGroupIds:
-        - JenkinsSecurityGroup
+        - minikube
       Tags:
         - Key: Name
           Value: RMIT_Store_Jenkins
@@ -147,9 +147,9 @@ Resources:
     Properties:
       ImageId: ami-0ed9277fb7eb570c9
       InstanceType: t2.micro
-      KeyName: s3963207_asm2_key
+      KeyName: s3804811_asm2
       SecurityGroupIds:
-        - AnsibleSecurityGroup
+        - minikube
       Tags:
         - Key: Name
           Value: TestRMIT-Store_Ansible
@@ -223,9 +223,9 @@ Resources:
     Properties:
       ImageId: ami-0ed9277fb7eb570c9
       InstanceType: t2.micro
-      KeyName: s3963207_asm2_key
+      KeyName: s3804811_asm2
       SecurityGroupIds:
-        - JenkinsSecurityGroup
+        - minikube
       Tags:
         - Key: Name
           Value: TestRMIT-Store_DB
@@ -290,9 +290,9 @@ Resources:
     Properties:
       ImageId: ami-0ed9277fb7eb570c9
       InstanceType: t2.micro
-      KeyName: s3963207_asm2_key
+      KeyName: s3804811_asm2
       SecurityGroupIds:
-        - JenkinsSecurityGroup
+        - minikube
       Tags:
         - Key: Name
           Value: TestRMIT-Store
@@ -400,9 +400,9 @@ Resources:
       ImageId: ami-0005e0cfe09cc9050
       InstanceType: t2.micro
       IamInstanceProfile: LabInstanceProfile
-      KeyName: s3963207_asm2_key
+      KeyName: s3804811_asm2
       SecurityGroupIds:
-        - JenkinsSecurityGroup
+        - minikube
       Tags:
         - Key: Name
           Value: Rmit_Store_Kubectl
@@ -418,7 +418,7 @@ Resources:
 
           # Change hostname
           rm -f /etc/hostname
-          echo "dev_server" >> /etc/hostname
+          echo "kubectl_server" >> /etc/hostname
 
           # Setup Kubectl
           curl -O https://s3.us-west-2.amazonaws.com/amazon-eks/1.28.3/2023-11-14/bin/linux/amd64/kubectl
@@ -466,7 +466,8 @@ Resources:
           read -p "Region: " region
           aws eks update-kubeconfig --name $clusterName --region $region
           ' >> /root/connect-workers.sh
-          chmod +x connect-workers.sh
+
+          chmod +x /root/connect-workers.sh
 
           # Install Git
           sudo yum install git -y        
