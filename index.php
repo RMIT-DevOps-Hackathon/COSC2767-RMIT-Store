@@ -76,7 +76,7 @@
             <div class="slider_inner">
                 <div class="image-change">
                     <h2 class="wow fadeInUp animated">Global University</h2>
-                    <h5 class="wow fadeIn animated" data-wow-delay="0.2s">Buy at Our Store || new update</h5>
+                    <h5 class="wow fadeIn animated" data-wow-delay="0.2s">Buy at Our Store</h5>
                     <a class="learn-more wow fadeInU" data-wow-delay="0.3s" href="#item-list">Buy Now!</a>
                 </div>
             </div>
@@ -85,12 +85,13 @@
 
         <section class="rmit-store-section row">
             <div class="check_tittle wow fadeInUp" data-wow-delay="0.4s" id="item-list">
-                <h2>Our Store || new update || 16:29</h2>
+                <h2>Our Store at 11:42 with Pytest</h2>
+                
             </div>
             <div class="row rmit-product-section">
               <?php
               $link = mysqli_connect(
-                  "database-1.ctco0owcyyxf.us-east-1.rds.amazonaws.com",
+                  "rmit-store.c9kica0o89u0.us-east-1.rds.amazonaws.com",
                   "db_admin",
                   "rmit_password",
                   "rmit_store_db"
@@ -141,7 +142,7 @@
         <footer class="footer_area row">
             <div class="container custom-container">
                 <div class="copy_right_area">
-                    <h4 class="copy_right">© Copyright 2022 RMIT Vietnam | Made with ❤️</h4>
+                    <h4 class="copy_right">© Copyright 2022 RMIT Vietnam | Made with ❤️ 4 TECH TEAM</h4>
                 </div>
             </div>
         </footer>
