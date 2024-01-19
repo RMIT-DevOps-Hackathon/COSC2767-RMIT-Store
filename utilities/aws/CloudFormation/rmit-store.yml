@@ -309,7 +309,7 @@ Resources:
           echo '
           source /root/init_repo.sh
           kill $(lsof -t -i tcp:80)
-          docker run -d --name my-rmit-store -p 80:80 laansdole/s3963207-rmit-store
+          docker run -d --name my-rmit-store -p 80:80 laansdole/s3804811-rmit-store
           echo "Server is running at http://$(curl -s http://checkip.amazonaws.com/)"
           ' >> /root/.bashrc
           echo "cd COSC2767-RMIT-Store/" >> /root/.bashrc
@@ -367,7 +367,7 @@ Resources:
           )
 
           # Run my prepared Docker Image
-          docker run -d --name my-rmit-store -p 80:80 laansdole/s3963207-rmit-store
+          docker run -d --name my-rmit-store -p 80:80 laansdole/s3804811-rmit-store
 
           # Change hostname
           rm -f /etc/hostname
