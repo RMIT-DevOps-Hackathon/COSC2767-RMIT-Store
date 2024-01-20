@@ -1,4 +1,3 @@
-readme file
 # Selenium, AWS, Python, Jenkins, Git Integration
 
 ### Initial EC2 Installation on AWS
@@ -96,20 +95,9 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 python3 --version
 ```
 
-### If Python3 is not installed
-```
-
-```
-
 ### Check pip3 package manager
 ```
 pip3 --version 
-```
-
-### Install virtualenv using pip3
-```
-sudo pip3 install virtualenv 
-virtualenv --version
 ```
 
 ### Install Git on EC2 (upgrading Git to the latest version) - (optio nal)
@@ -118,7 +106,6 @@ git --version
 ```
 
 ### General Moodle Selenium Script
-Setup a proper path, I call my virtualenv dir "venv", and  I've got the virtualenv command installed in /usr/local/bin
 ```
 pip3 install faker
 pip3 install selenium
