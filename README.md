@@ -4,18 +4,24 @@
 #  Course: COSC2767 Systems Deployment and Operations
 #  Semester: 2023C
 #  Assessment: Assignment 3
-#  Author - ID: Do Le Long An - s3963207, La Tran Hai Dang - s3836605, Pham Quang Man - s3804811, Huynh Van Anh - s3836320, Hoang Ngoc Duan - s3817747
+#  Author - ID: 
+#    Do Le Long An - s3963207
+#    La Tran Hai Dang - s3836605
+#    Pham Quang Man - s3804811
+#    Huynh Van Anh - s3836320
+#    Hoang Ngoc Duan - s3817747
 #  Created date: 06/01/2024
-#  Last modified: 21/01/2024
+#  Last modified: 22/01/2024
 #  Acknowledgement: RMIT Canvas, ChatGPT, AWS Documentation, StackOverflow,
 #  AWSAcademy Learner Lab, GitHub Documentation, Docker Documentation
-#  ngrok Documentation, Jenkins Documentation
-
-
-# GITHUB REPOSITORY: https://github.com/RMIT-DevOps-Hackathon/COSC2767-RMIT-Store
+#  Jenkins Documentation, Tom Huynh
 ```
-# CI/CD Pipeline on local
-- Refer to [utilities README.md](./utilities/README.md)
+
+### ***Video Demonstration: https://youtu.be/WmzPL43t688***
+
+
+### ***GitHub Repository: https://github.com/RMIT-DevOps-Hackathon/COSC2767-RMIT-Store***
+# CI/CD Pipeline at [utilities](./utilities/)
 # RMIT Store 🛍️
 <p align="center">
     <img src="https://i.imgur.com/e6H7HA3.jpg" width=900>

@@ -3,14 +3,18 @@
 # RMIT University Vietnam
 #  Course: COSC2767 Systems Deployment and Operations
 #  Semester: 2023C
-#  Assessment: Assignment 2
-#  Author: Do Le Long An
-#  ID: s3963207
-#  Created date: December 10, 2023
-#  Last modified: December 31, 2023
+#  Assessment: Assignment 3
+#  Author - ID: 
+#    Do Le Long An - s3963207
+#    La Tran Hai Dang - s3836605
+#    Pham Quang Man - s3804811
+#    Huynh Van Anh - s3836320
+#    Hoang Ngoc Duan - s3817747
+#  Created date: 06/01/2024
+#  Last modified: 22/01/2024
 #  Acknowledgement: RMIT Canvas, ChatGPT, AWS Documentation, StackOverflow,
 #  AWSAcademy Learner Lab, GitHub Documentation, Docker Documentation
-#  ngrok Documentation, Jenkins Documentation
+#  Jenkins Documentation, Tom Huynh
 
 # First check if Maven is already installed
 if command -v mvn >/dev/null 2>&1; then
